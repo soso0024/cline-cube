@@ -1,0 +1,12 @@
+{
+  "name": "cline-cube",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/cube.html"
+    }
+  ]
+}
